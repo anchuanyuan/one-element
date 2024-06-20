@@ -1,13 +1,10 @@
 {
-  "name": "@one-ui/core",
+  "name": "@one-ui/play",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "@one-ui/componments": "workspace:*"
   },
   "keywords": [],
   "author": "",

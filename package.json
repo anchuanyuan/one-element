@@ -25,7 +25,6 @@
     "@one-ui/hooks": "workspace:*",
     "@one-ui/utils": "workspace:*",
     "@one-ui/theme": "workspace:*",
-    "one-ui": "workspace:*",
     "lodash-es": "^4.17.21",
     "vue": "^3.4.29"
   }
