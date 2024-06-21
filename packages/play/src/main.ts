@@ -11,6 +11,8 @@ const app = createApp(App)
 
 app.use(createPinia())
 app.use(router)
+console.log(OneUI);
+
 app.use(OneUI)
 
 app.mount('#app')
