@@ -2,7 +2,8 @@
   "name": "one",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "play:dev": "pnpm --filter  @one-ui/play dev",
+    "docs:dev": "pnpm --filter @one-ui/docs docs:dev"
   },
   "devDependencies": {
     "@types/lodash-es": "^4.17.12",

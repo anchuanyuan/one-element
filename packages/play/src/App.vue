@@ -3,7 +3,12 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <one-button>测试</one-button>
+  <one-button>
+    测试
+    <template #prefix>
+      <span>icon</span>
+    </template>
+  </one-button>
   <RouterView />
 </template>
 
