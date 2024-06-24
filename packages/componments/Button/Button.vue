@@ -14,6 +14,8 @@
     // const slots = defineSlots<{
     //     prefix(props: { name: string }): any
     // }>()
-    const slots = defineSlots({
-    })
+    const slots = defineSlots<{
+        default(): void
+        prefix(): void
+    }>()
 </script>
